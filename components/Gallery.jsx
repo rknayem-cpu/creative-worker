@@ -21,14 +21,7 @@ const portfolioItems = [
     tags: ['Target Audience', 'High ROI'],
     description: 'Targeted advertising strategy to increase business reach.'
   },
-  {
-    id: 3,
-    title: 'YouTube & Facebook Page Setup',
-    category: 'Page Setup',
-    image: '/gallery/3.png',
-    tags: ['Branding', 'SEO'],
-    description: 'Professional logo design and complete branding setup.'
-  },
+ 
   {
     id: 4,
     title: 'Facebook & Instagram Ads',

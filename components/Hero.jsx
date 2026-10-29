@@ -5,7 +5,8 @@ import { ArrowUpRight, Award, PhoneCall, ShieldCheck } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative pt-28 pb-16 md:pt-32 md:pb-10 text-slate-100 overflow-hidden border-b border-slate-800/60">
+    <section id="home" className="relative pt-28 pb-16 md:pt-32 md:pb-10 text-slate-100 overflow-hidden
+     border-b border-slate-800/60">
       
       {/* Background Decorative Mesh Glow */}
       <div className="absolute top-[-10%] right-[-5%] w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-amber-500/10 blur-[130px] md:blur-[160px] rounded-full pointer-events-none" />
@@ -33,18 +34,26 @@ export default function Hero() {
             </motion.div>
 
             {/* Main Headline (Drop from Top) */}
-            <motion.h1 
-              initial={{ opacity: 0, y: -40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-              className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight md:leading-none text-white"
-            >
-              DIGITAL <br />
-              <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent">
-                MARKETING
-              </span> <br />
-              & CONTENT EXPERT
-            </motion.h1>
+           <motion.h1 
+  initial={{ opacity: 0, y: -40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+  className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight md:leading-none text-white text-center flex flex-col items-center"
+>
+  {/* DIGITAL MARKETING এক লাইনে থাকবে */}
+  <div className="flex gap-3">
+    <span>DIGITAL</span> 
+    <span>
+      MARKETING
+    </span>
+  </div>
+
+  {/* EXPERT পরের লাইনে মাঝখানে থাকবে */}
+  <span className="block mt-2 text-center bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 
+    bg-clip-text text-transparent">
+    EXPERT
+  </span>
+</motion.h1>
 
             {/* Subtitle / Quote (Fade & Slide in) */}
             <motion.p 

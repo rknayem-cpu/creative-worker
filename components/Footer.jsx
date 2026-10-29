@@ -12,11 +12,14 @@ export default function Footer() {
           
           {/* Brand & About */}
           <div className="space-y-4">
+            <span className='relative top-3 left-14 text-white rounded-lg p-2  bg-green-800'>SEO and Founder</span>
             <div className="flex items-center gap-3">
+                
                <Image src={'/crlogo.png'} width={300} height={300} className="w-10 h-10 rounded-full
                 bg-yellow-400 flex items-center justify-center text-slate-900 font-bold text-xl"/>
-               
+             
               <span className="font-bold text-xl text-white">Creative Worker</span>
+              
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Shifat Molla — Digital marketing, page setup, boosting, ebong video editing solutions pathate toiri.

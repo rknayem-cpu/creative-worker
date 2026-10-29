@@ -6,7 +6,7 @@ import { Megaphone, Sliders, Video, Share2, Target, TrendingUp } from 'lucide-re
 const services = [
   {
     icon: <Megaphone className="w-6 h-6 sm:w-7 sm:h-7 text-yellow-400" />,
-    title: 'Facebook Page Boosting',
+    title: 'Facebook Ads Campaign',
     desc: 'Targeted ad campaigns designed to reach your exact customer base and maximize conversion rate.'
   },
   {

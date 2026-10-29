@@ -25,10 +25,10 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="#home" className="flex items-center gap-3 group">
               <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gradient-to-r from-yellow-400 to-amber-500 p-0.5 shadow-lg shadow-yellow-400/20 group-hover:scale-105 transition-transform">
-                <Image src="/crlogo.png" alt="Logo" width={40} height={40} className="w-full h-full object-cover rounded-full bg-slate-950" />
+                <Image src="/shifat.png" alt="Logo" width={40} height={40} className="w-full h-full object-cover rounded-full bg-slate-950" />
               </div>
               <span className="font-extrabold text-xl tracking-tight text-white">
-                Creative <span className="text-yellow-400">Worker</span>
+                Shifat <span className="text-yellow-400">Molla</span>
               </span>
             </Link>
 
